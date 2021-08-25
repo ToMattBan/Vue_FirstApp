@@ -2,7 +2,7 @@ export function ReverseText() {
     const ReverseText = {
         data() {
             return {
-                message: 'Socorram-me, Subi No Ônibus Em Marrocos'
+                message: 'socorram me subi no onibus em marrocos'
             }
         },
         methods: {

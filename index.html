@@ -13,23 +13,33 @@
 </head>
 
 <body>
+    <!-- Hello.js -->
     <h1 id="hello_world">{{ hello_world_message }}</h1>
     
+    <!-- Counter.js -->
     <div id="counter">
         Você está a {{ counter }} segundos aqui.
     </div>
 
+    <!-- Binding.js -->
     <div id="binding-message">
         <span v-bind:title="message">
             Posicione o mouse aqui em cima para ver uma coisa legal
         </span>
     </div>
 
+    <!-- ReverseText.js -->
     <div id="userInteract">
         <p>{{ message }}</p>
         <button v-on:click="reverseText">Reverse Text</button>
     </div>
-    
+
+    <!-- CopyText.js -->
+    <div id='copyText'>
+        <p>{{ message }}</p>
+        <input v-model="message" />
+    </div>
+
     <script type="module" src="./script.js"></script>
 </body>
 
