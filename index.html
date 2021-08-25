@@ -16,10 +16,14 @@
     <!-- Hello.js -->
     <h1 id="hello_world">{{ hello_world_message }}</h1>
     
+    </br>
+
     <!-- Counter.js -->
     <div id="counter">
         Você está a {{ counter }} segundos aqui.
     </div>
+
+    </br>
 
     <!-- Binding.js -->
     <div id="binding-message">
@@ -28,16 +32,27 @@
         </span>
     </div>
 
+    </br>
+
     <!-- ReverseText.js -->
     <div id="userInteract">
         <p>{{ message }}</p>
         <button v-on:click="reverseText">Reverse Text</button>
     </div>
 
+    </br>
+
     <!-- CopyText.js -->
     <div id='copyText'>
         <p>{{ message }}</p>
         <input v-model="message" />
+    </div>
+
+    </br> 
+
+    <!-- Seen.js -->
+    <div id="youSee" style="color: red;">
+        <span v-if="seen">PICKABU</span>
     </div>
 
     <script type="module" src="./script.js"></script>
