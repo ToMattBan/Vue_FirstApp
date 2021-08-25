@@ -2,7 +2,7 @@ export function BindingAttribute() {
     const BindingAttribute = {
         data() {
             return {
-                message: "Vuçê foi hasxhkeadu em " + new Date().toLocaleString()
+                message: "És lindo desde " + new Date().toLocaleString()
             }
         }
     }

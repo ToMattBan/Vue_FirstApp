@@ -5,6 +5,7 @@ import { ReverseText } from "./Components/ReverseText.js"
 import { CopyText } from "./Components/CopyText.js"
 import { Seen } from "./Components/Seen.js"
 import { List } from "./Components/List.js"
+import { ListComponent } from "./Components/ListComponent.js"
 
 HelloWorldApp();
 Counter();
@@ -13,3 +14,4 @@ ReverseText();
 CopyText();
 Seen();
 List();
+ListComponent();

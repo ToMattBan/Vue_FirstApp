@@ -67,6 +67,16 @@
         </ol>
     </div>
 
+    </br>
+
+    <!-- ListComponent.js -->
+    <div id="listWithComponent">
+        <h4>Lista de compras</h4>
+        <ol>
+            <lista-compras v-for="item in ListadeCompras" v-bind:lista="item" />
+        </ol>
+    </div>
+
     <script type="module" src="./script.js"></script>
 </body>
 
