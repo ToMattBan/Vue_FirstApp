@@ -24,6 +24,11 @@
             Posicione o mouse aqui em cima para ver uma coisa legal
         </span>
     </div>
+
+    <div id="userInteract">
+        <p>{{ message }}</p>
+        <button v-on:click="reverseText">Reverse Text</button>
+    </div>
     
     <script type="module" src="./script.js"></script>
 </body>
