@@ -55,6 +55,18 @@
         <span v-if="seen">PICKABU</span>
     </div>
 
+    </br>
+
+    <!-- List.js -->
+    <div id="listWithFor">
+        <h4>Coisas a fazer:</h4>
+        <ol>
+            <li v-for="tarefa in tarefas">
+                {{ tarefa.text }}
+            </li>
+        </ol>
+    </div>
+
     <script type="module" src="./script.js"></script>
 </body>
 
